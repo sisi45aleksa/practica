@@ -1,3 +1,4 @@
+/*homepage*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #324950;
@@ -162,6 +163,8 @@ p {
 .footer-copyright {
     color: rgba(255, 255, 255, 0.5);
 }
+
+/*tomato all*/
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 * {
@@ -668,7 +671,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.1.png");
+    background-image: url("../images/pomidori/image 3.3.png");
     background-size: 100% 100%;
   }
   
@@ -684,7 +687,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.2.png");
+    background-image: url("../images/pomidori/image 3.6.png");
     background-size: 100% 100%;
   }
   
@@ -713,7 +716,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.3.png");
+    background-image: url("../images/pomidori/image 3.1.png");
     background-size: 100% 100%;
   }
   
@@ -758,7 +761,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.5.png");
+    background-image: url("../images/pomidori/image 3.7.png");
     background-size: 100% 100%;
   }
   
@@ -774,7 +777,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.6.png");
+    background-image: url("../images/pomidori/image 3.2.png");
     background-size: 100% 100%;
   }
   
@@ -790,7 +793,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.7.png");
+    background-image: url("../images/pomidori/image 3.5.png");
     background-size: 100% 100%;
   }
   
