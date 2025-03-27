@@ -173,7 +173,7 @@ body {
   margin: 0px;
   height: 100%;
 }
-/* a blue color as a generic focus style */
+
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
   outline: -webkit-focus-ring-color auto 5px !important;
@@ -485,7 +485,7 @@ a {
     position: relative;
     width: 1920px;
     height: 127px;
-    background-color: var(--text-color);
+    background-color: #324950;
   }
   
   .tomato-all .overlap-3 {
@@ -821,6 +821,14 @@ a {
     font-weight: 700;
   }
   
+  .highlightedtext {
+    margin: 20px 0;
+    padding: 1px 20px;
+    border-left: 5px solid #e25353;
+    color: #375158;
+    border-radius: 5px;
+}
+
   .tomato-all .text-wrapper-9 {
     position: absolute;
     width: 1036px;
@@ -853,7 +861,7 @@ a {
     height: 60px;
     top: 1114px;
     left: 406px;
-    background-color: var(--eb-5757);
+    background-color: #EB5757;
     border-radius: 4px;
   }
   
@@ -863,7 +871,7 @@ a {
     height: 40px;
     top: 1693px;
     left: 405px;
-    background-color: var(--eb-5757);
+    background-color: #EB5757;
     border-radius: 4px;
   }
   
