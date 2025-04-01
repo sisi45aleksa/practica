@@ -440,47 +440,43 @@ a {
     left: 332px;
   }
   
-  .tomato-all .vision-mission {
-    position: absolute;
-    width: 827px;
-    height: 109px;
-    top: 653px;
-    left: 405px;
+  .box { 
+    position: absolute; 
+    width: 827px; 
+    height: 109px; 
+  } 
+  
+  .box .group1 { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  } 
+  .box .text-wrapper { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    font-family: "Roboto Slab-Bold", Helvetica; 
+    font-weight: 700; 
+    color: #324950; 
+    font-size: 44px; 
+    letter-spacing: 0; 
+    line-height: 62.8px; 
+    white-space: nowrap; 
   }
   
-  .tomato-all .group {
-    position: relative;
-    width: 829px;
-    height: 109px;
-  }
-  
-  .tomato-all .text-wrapper-5 {
-    position: absolute;
-    top: 0;
+ .box .union { 
+    position: absolute; 
+    width: 47px; 
+    height: 6px; 
+    top: 103px; 
     left: 0;
-    font-family: "Roboto Slab-Bold", Helvetica;
-    font-weight: 700;
-    color: rgb(50, 73, 80);
-    font-size: 44px;
-    letter-spacing: 0;
-    line-height: 62.8px;
-    white-space: nowrap;
-  }
-  
-  .tomato-all .union {
-    position: absolute;
-    width: 47px;
-    height: 6px;
-    top: 103px;
-    left: 0;
-  }
-  
+  }  
   .tomato-all .footer {
     position: absolute;
     width: 1924px;
     height: 127px;
-    top: 2846px;
-    left: 0;
+    top: 2193px;
+    left: -410px;
     background-color: transparent;
   }
   
@@ -830,7 +826,7 @@ a {
     border-left: 5px solid #e25353;
     color: #375158;
     border-radius: 5px;
-}
+ }
 
   .tomato-all .text-wrapper-9 {
     position: absolute;
@@ -862,7 +858,7 @@ a {
     position: absolute;
     width: 4px;
     height: 60px;
-    top: 1114px;
+    top: 1122px;
     left: 406px;
     background-color: #EB5757;
     border-radius: 4px;
@@ -872,12 +868,226 @@ a {
     position: absolute;
     width: 4px;
     height: 40px;
-    top: 1693px;
+    top: 1710px;
     left: 405px;
     background-color: #EB5757;
     border-radius: 4px;
   }
   
+  .tomato-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.tomato-card-link:hover .rectangle {
+    background-color: #f0f0f0; /* Изменение цвета при наведении */
+}
+
+.tomato-card-link:hover .TAG-TAG,
+.tomato-card-link:hover .TAG-TAG-2,
+.tomato-card-link:hover .TAG-TAG-3 {
+    color: #57984C; /* Изменение цвета текста при наведении */
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlap-4, .overlap-5, .overlap-6, 
+.overlap-7, .overlap-8, .overlap-9,
+.overlap-10, .overlap-11 {
+  position: relative;
+  width: 350px;
+  height: 321px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 350px;
+  height: 69px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.TAG-TAG, .TAG-TAG-2, .TAG-TAG-3 {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px; /* Увеличили отступ снизу */
+  left: 18px;
+  font-family: "Roboto Slab-Bold", Helvetica;
+  font-weight: 400;
+  color: #57984C;
+  font-size: 20px;
+  line-height: 1.2; /* Уменьшили межстрочный интервал */
+  width: calc(100% - 36px);
+  margin: 0;
+  padding: 0;
+}
+
+.text-wrapper-6 {
+  font-family: "Roboto Slab-Regular", Helvetica;
+  font-size: 16px;
+  line-height: 1.3; /* Уменьшили межстрочный интервал */
+  display: block;
+  margin-top: 5px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 350px;
+  height: 80px; 
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.overlap-4 {
+  background-image: url("../images/pomidori/image 3.png");
+  background-size: cover;
+}
+
+.overlap-5 {
+  background-image: url("../images/pomidori/image 3.3.png");
+  background-size: cover;
+}
+
+.overlap-6 {
+  background-image: url("../images/pomidori/image 3.6.png");
+  background-size: cover;
+}
+
+.overlap-7 {
+  background-image: url("../images/pomidori/image 3.1.png");
+  background-size: cover;
+}
+
+.overlap-8 {
+  background-image: url("../images/pomidori/image 3.4.png");
+  background-size: cover;
+}
+
+.overlap-9 {
+  background-image: url("../images/pomidori/image 3.7.png");
+  background-size: cover;
+}
+
+.overlap-10 {
+  background-image: url("../images/pomidori/image 3.2.png");
+  background-size: cover;
+}
+
+.overlap-11 {
+  background-image: url("../images/pomidori/image 3.5.png");
+  background-size: cover;
+}
+
+
+.overlap-wrapper {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 1773px;
+  left: 405px;
+}
+
+.overlap-group-wrapper {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 2124px;
+  left: 405px;
+}
+
+.div-wrapper {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 2475px;
+  left: 405px;
+}
+
+.group-3 {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 1764px;
+  left: 786px;
+}
+
+.group-4 {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 2124px;
+  left: 785px;
+}
+
+.group-5 {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 2475px;
+  left: 785px;
+}
+
+.group-6 {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 1773px;
+  left: 1165px;
+}
+
+.group-7 {
+  position: absolute;
+  width: 352px;
+  height: 321px;
+  top: 2124px;
+  left: 1165px;
+}
+
+
+.card-link:hover .rectangle {
+  background-color: #f5f5f5;
+}
+
+.card-link:hover .TAG-TAG,
+.card-link:hover .TAG-TAG-2,
+.card-link:hover .TAG-TAG-3 {
+  color: #4a823f;
+}
+
+.vision-mission {
+    position: absolute;
+    width: 827px;
+    height: 109px;
+    top: 653px;
+    left: 405px;
+}
+
+.main-title {
+    font-family: "Roboto Slab-Bold", Helvetica;
+    font-weight: 700;
+    color: #324950;
+    font-size: 44px;
+    letter-spacing: 0;
+    line-height: 62.8px;
+    margin: 0;
+    text-align: center;
+}
+
   /*tomato one*/
 
   :root {
@@ -1018,43 +1228,42 @@ a {
   }
   .return-to-all-tomatoes {
     position: absolute;
-    color: #57984c;
-    width: 146px;
-    height: 23px;
     top: 140px;
-    left: 444px;
-    font-family: Roboto Slab, var(--default-font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22.778px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
+    left: 405px;
     z-index: 43;
   }
   
-  .arrow {
-    position: absolute;
-    width: 24px;
-    height: 0px;
-    top: 151px;
-    left: 405px;
-    background: url(../images/onetomato/Arrow.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 44;
+  .return-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #57984c;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.778px;
   }
+  
+  .arrow-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/onetomato/Arrow.png) no-repeat center;
+    background-size: contain;
+  }
+  
   .image {
     position: absolute;
     width: 540px;
     height: 498px;
     top: 182px;
     left: 975px;
-    background: url(../images/onetomato/images3.png)
-      no-repeat center;
+    background: url(../images/onetomato/images3.png) no-repeat center;
     background-size: cover;
     z-index: 25;
   }
+  
   .tag-tomato-determinate {
     position: absolute;
     width: 526px;
