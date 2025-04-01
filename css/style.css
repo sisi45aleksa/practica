@@ -1779,3 +1779,820 @@ a {
     z-index: 13;
   }
   
+  /*contact us*/
+
+  :root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-wrapper {
+    overflow: hidden;
+  }
+  
+  .main-wrapper,
+  .main-wrapper * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-wrapper {
+    position: relative;
+    width: 1920px;
+    height: 2000px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    overflow: hidden;
+  }
+  
+  .header-container {
+    position: relative;
+    width: 1920px;
+    height: 122px;
+    margin: 0;
+    background: #ffffff;
+    z-index: 4;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .company-logo {
+    position: absolute;
+    width: 166px;
+    height: 83px;
+    top: 20px;
+    left: 394px;
+    background: url(../images/agridera-logo.png) no-repeat center;
+    background-size: cover;
+    z-index: 5;
+  }
+  
+  .search-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 21px;
+    top: 20px;
+    left: 1165px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  
+  .search-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 21px;
+    left: 1497px;
+    background: url(../images/search-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 11;
+  }
+  
+  .search-underline {
+    position: absolute;
+    width: 350px;
+    height: 1px;
+    top: 48px;
+    left: 1165px;
+    background: url(../images/onetomato/searchLine.png) no-repeat center;
+    background-size: cover;
+    z-index: 8;
+  }
+  
+  .header-rectangle-1 {
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    top: 68px;
+    left: 833px;
+    z-index: 26;
+  }
+  
+  .header-rectangle-2 {
+    position: absolute;
+    width: 96px;
+    height: 33px;
+    top: 70px;
+    left: 1260px;
+    z-index: 27;
+  }
+  
+  .navigation-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    top: 74px;
+    left: 1016px;
+    color: #324950;
+    font-family: Heebo, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 1920px;
+    height: 480px;
+    margin: 0;
+    background: url(../images/contactus/b) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  
+  .contact-heading {
+    display: block;
+    position: relative;
+    height: 63px;
+    margin: 51px 0 0 405px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 62.788px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  
+  .divider-star {
+    position: relative;
+    width: 47.243px;
+    height: 6.243px;
+    margin: 40px 0 0 405px;
+    background: url(../images/contactus/star.png) no-repeat center;
+    background-size: cover;
+    z-index: 15;
+  }
+  
+  .form-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 549px;
+    height: 26px;
+    margin: 50.257px 0 0 405px;
+    z-index: 41;
+  }
+  
+  .name-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  
+  .user-type-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 41;
+  }
+  
+  .form-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1110px;
+    height: 55px;
+    margin: 10.5px 0 0 405px;
+    z-index: 39;
+  }
+  
+  .name-input-field {
+    flex-shrink: 0;
+    position: relative;
+    width: 350px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 29;
+    border-radius: 10px;
+  }
+  
+  .user-type-dropdown {
+    flex-shrink: 0;
+    position: relative;
+    width: 635px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 39;
+    border-radius: 10px;
+  }
+  
+  .dropdown-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 26px;
+    top: 13.5px;
+    left: 9.243px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 42;
+  }
+  
+  .dropdown-arrow {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14.5px;
+    left: 594px;
+    background: url(../images/contactus/Frame.png) no-repeat center;
+    background-size: cover;
+    z-index: 52;
+    overflow: hidden;
+  }
+  
+  .form-row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 653px;
+    height: 26.811px;
+    margin: 20px 0 0 405px;
+    z-index: 47;
+  }
+  
+  .company-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 47;
+  }
+  
+  .specify-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 43;
+  }
+  
+  .form-row-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1110px;
+    height: 55px;
+    margin: 9.973px 0 0 405px;
+    z-index: 40;
+  }
+  
+  .company-input-field {
+    flex-shrink: 0;
+    position: relative;
+    width: 351px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 33;
+    border-radius: 10px;
+  }
+  
+  .specify-input-field {
+    flex-shrink: 0;
+    position: relative;
+    width: 635px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 40;
+    border-radius: 10px;
+  }
+  
+  .form-row-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 641px;
+    height: 26px;
+    margin: 20.216px 0 0 405px;
+    z-index: 51;
+  }
+  
+  .position-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 44;
+  }
+  
+  .interest-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  
+  .form-section-1 {
+    position: relative;
+    width: 1108.9px;
+    height: 390.75px;
+    margin: 10.5px 0 0 405px;
+    z-index: 48;
+  }
+  
+  .position-input-field {
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 30;
+    border-radius: 10px;
+  }
+  
+  .interest-textarea {
+    position: absolute;
+    width: 633.9px;
+    height: 390.75px;
+    top: 0;
+    left: 475px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 37;
+    border-radius: 10px;
+  }
+  
+  .city-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 26px;
+    top: 75.25px;
+    left: 0;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 48;
+  }
+  
+  .city-input-field {
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    top: 111.75px;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 34;
+    border-radius: 10px;
+  }
+  
+  .country-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 26px;
+    top: 187.5px;
+    left: 0;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 45;
+  }
+  
+  .country-input-field {
+    position: absolute;
+    width: 351px;
+    height: 55px;
+    top: 224px;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 31;
+    border-radius: 10px;
+  }
+  
+  .phone-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 26px;
+    top: 299.25px;
+    left: 0;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  
+  .phone-input-field {
+    position: absolute;
+    width: 351px;
+    height: 55px;
+    top: 335.75px;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 32;
+    border-radius: 10px;
+  }
+  
+  .form-row-6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 643px;
+    height: 26px;
+    margin: 20.75px 0 0 405px;
+    z-index: 50;
+  }
+  
+  .email-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 49;
+  }
+  
+  .captcha-label {
+    flex-shrink: 0;
+    position: relative;
+    height: 26px;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 50;
+  }
+  
+  .form-row-7 {
+    position: relative;
+    width: 1110px;
+    height: 55px;
+    margin: 10.5px 0 0 405px;
+    z-index: 54;
+  }
+  
+  .email-input-field {
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 35;
+    border-radius: 10px;
+  }
+  
+  .submit-button {
+    position: absolute;
+    width: 255px;
+    height: 55px;
+    top: 0;
+    left: 855px;
+    background: #57984c;
+    z-index: 54;
+    border-radius: 60px;
+  }
+  
+  .button-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 10.5px;
+    left: 69px;
+    color: #ffffff;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 55;
+  }
+  
+  .captcha-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    top: 0;
+    left: 475px;
+    z-index: 53;
+  }
+  
+  .captcha-image {
+    flex-shrink: 0;
+    position: relative;
+    width: 99px;
+    height: 27px;
+    background: url(../images/contactus/code.png) no-repeat center;
+    background-size: cover;
+    z-index: 53;
+  }
+  
+  .captcha-input {
+    flex-shrink: 0;
+    position: relative;
+    width: 225px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    z-index: 36;
+    border-radius: 10px;
+  }
+  
+  .address-container {
+    position: relative;
+    width: 1920px;
+    height: 250px;
+    margin: 50.5px 0 0 -0.5px;
+    font-size: 0px;
+    background: #ffffff;
+    z-index: 56;
+    overflow: visible auto;
+  }
+  
+  .address-title {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 44px 0 0 901px;
+    color: #57984c;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.54px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 59;
+  }
+  
+  .address-divider {
+    position: relative;
+    width: 183px;
+    height: 1px;
+    margin: 11px 0 0 868.5px;
+    background: url(../images/contactus/contactline.png) no-repeat center;
+    background-size: cover;
+    z-index: 60;
+  }
+  
+  .address-content {
+    position: relative;
+    width: 288px;
+    height: 104px;
+    margin: 17px 0 0 816px;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 58;
+  }
+  
+  .address-text {
+    position: relative;
+    color: #324950;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+  }
+  
+  .phone-number {
+    position: relative;
+    color: #57984c;
+    font-family: Roboto Slab, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    position: relative;
+    width: 1920px;
+    height: 127px;
+    top: 125px;
+    margin: -3px 0 0 0;
+    background: #324950;
+    z-index: 17;
+    overflow: visible auto;
+  }
+  
+  .footer-bottom {
+    position: relative;
+    width: 1920px;
+    height: 76px;
+    margin: 0;
+    background: #2c3f45;
+    z-index: 18;
+  }
+  
+  .linkedin-icon {
+    position: absolute;
+    width: 31.2px;
+    height: 31.2px;
+    top: 23px;
+    left: 1303px;
+    background: url(../images/ico-lin.svg) no-repeat center;
+    background-size: cover;
+    z-index: 21;
+    overflow: hidden;
+  }
+  
+  .instagram-icon {
+    position: absolute;
+    width: 31.2px;
+    height: 31.2px;
+    top: 23px;
+    left: 1348px;
+    background: url(../images/ico-ins.svg) no-repeat center;
+    background-size: cover;
+    z-index: 22;
+    overflow: hidden;
+  }
+  
+  .youtube-icon {
+    position: absolute;
+    width: 31.2px;
+    height: 31.2px;
+    top: 23px;
+    left: 1393px;
+    background: url(../images/ico-ytu.svg) no-repeat center;
+    background-size: cover;
+    z-index: 23;
+    overflow: hidden;
+  }
+  
+  .twitter-icon {
+    position: absolute;
+    width: 31.2px;
+    height: 31.2px;
+    top: 23px;
+    left: 1438px;
+    background: url(../images/ico-twt.svg) no-repeat center;
+    background-size: cover;
+    z-index: 24;
+    overflow: hidden;
+  }
+  
+  .facebook-icon {
+    position: absolute;
+    width: 31.2px;
+    height: 31.2px;
+    top: 23px;
+    left: 1483px;
+    background: url(../images/ico-fcb.svg) no-repeat center;
+    background-size: cover;
+    z-index: 25;
+    overflow: hidden;
+  }
+  
+  .footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 27px;
+    left: 405px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.832px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  
+  .copyright {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 18px 0 0 812px;
+    color: #b8b8b8;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.978px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  
+  .background-image {
+    position: absolute;
+    width: 1920px;
+    height: 480px;
+    top: 122px;
+    left: 0;
+    background: url(../images/contactus/backgroun.png) no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
