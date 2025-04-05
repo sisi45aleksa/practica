@@ -1,0 +1,245 @@
+/* Mobile First Approach */
+@media (max-width: 1024px) {
+  .tomato-all .div {
+    width: 100%;
+    height: auto;
+  }
+
+  .tomato-all .overlap {
+    width: 90%;
+    left: 5%;
+    height: auto;
+    padding: 20px 0;
+    position: relative;
+    top: auto;
+  }
+
+  .tomato-all .this-breeding-is,
+  .tomato-all .this-breeding-is-for,
+  .tomato-all .p {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: auto;
+    margin-bottom: 20px;
+  }
+
+  .tomato-all .text-wrapper-2,
+  .tomato-all .text-wrapper-3,
+  .tomato-all .text-wrapper-4 {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: auto;
+    margin-bottom: 10px;
+  }
+
+  .tomato-all .line,
+  .tomato-all .img,
+  .tomato-all .line-2 {
+    width: 100%;
+    left: 0;
+  }
+
+  .tomato-all .overlap-group {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: auto;
+    left: 0;
+  }
+
+  .tomato-all .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .tomato-all .overlap-group-2 {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .tomato-all .logo {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+
+  .tomato-all .home-company-profile {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .home-company-profile a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .tomato-all .search {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+    left: 0;
+    top: 0;
+    height: auto;
+  }
+
+  .tomato-all .input {
+    position: relative;
+    width: 100%;
+  }
+
+  .vision-mission {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    height: auto;
+  }
+
+  .box .text-wrapper {
+    font-size: 32px;
+    line-height: 1.2;
+    white-space: normal;
+    text-align: center;
+    position: relative;
+    left: 0;
+  }
+
+  .box .union {
+    margin: 10px auto;
+    position: relative;
+    left: 0;
+  }
+
+  /* Grape Products Grid */
+  .grapesList .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grapeItem {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .overlap-grape {
+    width: 100%;
+    height: auto;
+  }
+
+  .grape-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .VARIETY-TAG {
+    position: relative;
+    top: auto;
+    left: auto;
+    text-align: center;
+    padding: 15px;
+  }
+
+  /* Footer adjustments */
+  .tomato-all .footer {
+    position: relative;
+    width: 100%;
+    top: auto;
+    left: 0;
+  }
+
+  .tomato-all .overlap-2,
+  .tomato-all .overlap-3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .PROFILE-MANAGEMENT {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .PROFILE-MANAGEMENT a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin: 15px 0;
+  }
+
+  .AGRIDERA-SEEDS {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  /* Text content adjustments */
+  .tomato-all .agridera-aims-to-be,
+  .tomato-all .text-wrapper-9,
+  .tomato-all .text-wrapper-10 {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: auto;
+    margin: 20px 0;
+  }
+
+  .tomato-all .rectangle-2,
+  .tomato-all .rectangle-3 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .box .text-wrapper {
+    font-size: 28px;
+  }
+
+  .grapeItem {
+    width: 100%;
+  }
+
+  .tomato-all .overlap {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box .text-wrapper {
+    font-size: 24px;
+  }
+
+  .tomato-all .this-breeding-is,
+  .tomato-all .this-breeding-is-for,
+  .tomato-all .p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .VARIETY-TAG {
+    font-size: 18px;
+  }
+
+  .text-wrapper-6 {
+    font-size: 14px;
+  }
+}
