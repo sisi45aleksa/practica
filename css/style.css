@@ -186,7 +186,7 @@ a {
 }
 
 .tomato-all {
-    background-color: #59caeff7;
+    background-color: #c1fdf8f7;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -194,7 +194,7 @@ a {
   }
   
   .tomato-all .div {
-    background-color: #fbf0f0;
+    background-color: #c2f9f6;
     overflow: hidden;
     width: 1920px;
     height: 2973px;
@@ -207,7 +207,7 @@ a {
     height: 450px;
     top: 1204px;
     left: 385px;
-    background-color: #fff9f9;
+    background-color: #62f0e6;
   }
   
   .tomato-all .this-breeding-is {
@@ -860,7 +860,7 @@ a {
     height: 60px;
     top: 1122px;
     left: 406px;
-    background-color: #EB5757;
+    background-color: #351cd9;
     border-radius: 4px;
   }
   
@@ -870,7 +870,7 @@ a {
     height: 40px;
     top: 1710px;
     left: 405px;
-    background-color: #EB5757;
+    background-color: #351cd9;
     border-radius: 4px;
   }
   
