@@ -186,7 +186,7 @@ a {
 }
 
 .tomato-all {
-    background-color: #fbf0f0;
+    background-color: #59caeff7;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -611,7 +611,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.png");
+    background-image: url("../images/grape/grape\ 1.jpg");
     background-size: 100% 100%;
   }
   
@@ -667,7 +667,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.3.png");
+    background-image: url("../images/grape/grape\ 2.jpg");
     background-size: 100% 100%;
   }
   
@@ -683,7 +683,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.6.png");
+    background-image: url("../images/grape/grape\ 3.jpg");
     background-size: 100% 100%;
   }
   
@@ -712,7 +712,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.1.png");
+    background-image: url("../images/grape/grape\ 4.jpg");
     background-size: 100% 100%;
   }
   
@@ -728,7 +728,7 @@ a {
     position: relative;
     width: 350px;
     height: 321px;
-    background-image: url("../images/pomidori/image 3.4.png");
+    background-image: url("../images/grape/grape\ 5.jpg");
     background-size: 100% 100%;
   }
   
@@ -1260,7 +1260,7 @@ a {
     height: 498px;
     top: 182px;
     left: 975px;
-    background: url(../images/onetomato/images3.png) no-repeat center;
+    background: url(../images/grape/grape\ 1.jpg) no-repeat center;
     background-size: cover;
     z-index: 25;
   }
