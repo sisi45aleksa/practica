@@ -2596,3 +2596,317 @@ a {
     background-size: cover;
     z-index: 2;
   }
+
+  input, select, textarea {
+    min-width: 200px;
+    padding: 5px;
+  }
+  
+  
+/* Мобильные стили */
+@media (max-width: 768px) {
+  /* Общие стили для всех страниц */
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .header-section, .header-container {
+    height: auto;
+    padding: 15px;
+  }
+  
+  .header-logo, .logo, .company-logo {
+    max-width: 120px;
+    height: auto;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .search-container, .search {
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    padding: 0 15px;
+    margin-top: 60px;
+  }
+  
+  .search-input, .input {
+    width: 100%;
+  }
+  
+  .search-icon, .ico-search {
+    right: 15px;
+  }
+  
+  .nav-list, .home-company-profile, .footer-nav, .PROFILE-MANAGEMENT {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .hero-section, .overlap-group {
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+    background-size: cover;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  /* Стили для страницы всех томатов */
+  .tomato-all .div {
+    height: auto;
+  }
+  
+  .tomato-all .overlap {
+    width: 100%;
+    left: 0;
+    padding: 15px;
+    height: auto;
+    top: auto;
+  }
+  
+  .tomato-all .this-breeding-is,
+  .tomato-all .this-breeding-is-for,
+  .tomato-all .p,
+  .tomato-all .text-wrapper-2,
+  .tomato-all .text-wrapper-3,
+  .tomato-all .text-wrapper-4 {
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tomato-all .line,
+  .tomato-all .img,
+  .tomato-all .line-2 {
+    display: none;
+  }
+  
+  .tomato-all .overlap-wrapper,
+  .tomato-all .overlap-group-wrapper,
+  .tomato-all .div-wrapper,
+  .tomato-all .group-3,
+  .tomato-all .group-4,
+  .tomato-all .group-5,
+  .tomato-all .group-6,
+  .tomato-all .group-7 {
+    position: static;
+    width: 100%;
+    margin: 15px 0;
+    left: 0;
+  }
+  
+  .tomato-all .overlap-4,
+  .tomato-all .overlap-5,
+  .tomato-all .overlap-6,
+  .tomato-all .overlap-7,
+  .tomato-all .overlap-8,
+  .tomato-all .overlap-9,
+  .tomato-all .overlap-10,
+  .tomato-all .overlap-11 {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .tomato-all .rectangle {
+    width: 100%;
+  }
+  
+  .tomato-all .agridera-aims-to-be,
+  .tomato-all .text-wrapper-9,
+  .tomato-all .text-wrapper-10 {
+    position: static;
+    width: 100%;
+    padding: 0 15px;
+    margin: 15px 0;
+  }
+  
+  .tomato-all .rectangle-2,
+  .tomato-all .rectangle-3 {
+    display: none;
+  }
+  
+  /* Стили для страницы одного томата */
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tag-tomato-determinate,
+  .tag-1002,
+  .tomato-determinate-red {
+    font-size: 28px;
+    line-height: 1.3;
+    width: 100%;
+    padding: 0 15px;
+    left: 0;
+    top: 150px;
+  }
+  
+  .union-3 {
+    left: 15px;
+    top: 200px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px;
+    left: 0;
+    top: 250px;
+  }
+  
+  .high-yield-quality {
+    font-size: 20px;
+    left: 15px;
+    top: 520px;
+    width: calc(100% - 30px);
+  }
+  
+  .group-4 {
+    left: 15px;
+    top: 520px;
+  }
+  
+  .characteristics,
+  .plant,
+  .cycle,
+  .fruit,
+  .color {
+    left: 15px;
+    width: calc(100% - 30px);
+  }
+  
+  .line-5,
+  .line-7,
+  .line-8,
+  .line-b,
+  .line-c {
+    left: 15px;
+    width: calc(100% - 30px);
+  }
+  
+  .resistance-hr-tomv,
+  .strong-vigor-variety,
+  .seasons,
+  .shelf-life-fruit,
+  .red {
+    left: 15px;
+    width: calc(100% - 30px);
+    position: static;
+    padding: 0 15px;
+    margin: 10px 0;
+  }
+  
+  .rectangle-6 {
+    left: 15px;
+    width: calc(100% - 30px);
+  }
+  
+  /* Стили для страницы контактов */
+  .main-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contact-heading {
+    margin: 20px 15px;
+    font-size: 28px;
+  }
+  
+  .divider-star {
+    margin: 0 15px 20px;
+  }
+  
+  .form-row-1,
+  .form-row-2,
+  .form-row-3,
+  .form-row-4,
+  .form-row-5,
+  .form-row-6,
+  .form-row-7 {
+    flex-direction: column;
+    width: calc(100% - 30px);
+    margin: 10px 15px;
+    height: auto;
+  }
+  
+  .name-input-field,
+  .user-type-dropdown,
+  .company-input-field,
+  .specify-input-field,
+  .position-input-field,
+  .interest-textarea,
+  .city-input-field,
+  .country-input-field,
+  .phone-input-field,
+  .email-input-field,
+  .captcha-section,
+  .submit-button {
+    width: 100%;
+    left: 0;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .form-section-1 {
+    width: calc(100% - 30px);
+    margin: 10px 15px;
+    height: auto;
+  }
+  
+  .interest-textarea {
+    height: 150px;
+    left: 0;
+  }
+  
+  .address-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+  
+  .address-title,
+  .address-divider,
+  .address-content {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 30px);
+    text-align: left;
+  }
+  
+  /* Футер для всех страниц */
+  .footer-section, .footer-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+  }
+  
+  .footer-links, .PROFILE-MANAGEMENT {
+    position: static;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons, .ico-in, .ico-inst, .ico-tube, .ico-tw, .ico-fb {
+    position: static;
+    margin: 10px 0;
+  }
+  
+  .footer-copyright, .AGRIDERA-SEEDS, .copyright {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  /* Скрытие некоторых элементов на мобильных */
+  .play-button {
+    display: none;
+  }
+}  
